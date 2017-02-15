@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+
+	<title>Enthalt</title>
+	<h:outputStylesheet name="grid/grid.css" library="primefaces" />
+
+</h:head>
+
+<h:body>
+
+	<p:panelGrid>
+		<p:growl id="messages" showDetail="false" />
+
+		<h3 style="margin-top: 0">Enthalt</h3>
+		<p:menu>
+			<p:submenu label="Menu">
+				<p:menuitem value="Questão 3" outcome="/questao3.xhtml" icon="ui-icon-star" />
+				<p:menuitem value="Questão 4" outcome="/questao4.xhtml" icon="ui-icon-star" />
+			</p:submenu>
+		</p:menu>
+	</p:panelGrid>
+
+</h:body>
+</html>
+
